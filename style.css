@@ -1,0 +1,57 @@
+body {
+    margin: 30px;
+    padding: 0px;
+    font-size: 18px;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+.container {
+    max-width: 390px;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    width: 150px;
+    gap: 10px; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+
+
+
+.img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s; 
+}
+
+.item {
+    text-align: center;
+}
+
+.item:hover .img {
+    transform: scale(1.1); 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(248, 168, 24); 
+    border-radius: 10px; 
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background: lightgreen; 
+}
+.usercard{
+    text-align: center;
+
+}
